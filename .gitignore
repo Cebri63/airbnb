@@ -56,4 +56,4 @@ buck-out/
 *.jsbundle
 
 
-android/app/src/main/AndroidManifest.xml
+android/app/src/main/AndroidManifest
