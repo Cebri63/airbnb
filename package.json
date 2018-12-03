@@ -1,0 +1,42 @@
+{
+  "name": "AIRBNB",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "16.6.1",
+    "react-native": "0.57.7",
+    "react-native-cardview": "^2.0.2",
+    "react-native-gesture-handler": "^1.0.10",
+    "react-native-keyboard-aware-scroll-view": "^0.7.4",
+    "react-native-looped-carousel": "^0.1.13",
+    "react-native-maps": "^0.22.1",
+    "react-native-shadow": "^1.2.2",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-native-svg": "^8.0.8",
+    "react-native-vector-icons": "^6.1.0",
+    "react-navigation": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "23.6.0",
+    "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.5.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.49.2",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "object-curly-spacing": ["warn", "always"],
+    "quotes": ["warn", "double"],
+    "no-undef": "error",
+    "no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "args": "none"
+      }
+    ],
+    "strict": ["error", "never"],
+    "react/jsx-no-duplicate-props": "warn",
+    "react/jsx-no-undef": "error",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/no-direct-mutation-state": "error",
+    "react/prop-types": "warn",
+    "react/react-in-jsx-scope": "error",
+    "react/require-render-return": "error",
+    "react-native/no-unused-styles": "error"
+  },
+  "plugins": ["react", "react-native"]
+}
